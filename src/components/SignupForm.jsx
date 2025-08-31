@@ -51,7 +51,7 @@ const SignupForm = ({ switchToLogin }) => {
     }
 
     try {
-      const response = await axios.post('http://localhost:3001/api/signup', {
+      const response = await axios.post('https://login-backend-1-6sci.onrender.com/api/signup', {
         email: email,
         password: password
       });
